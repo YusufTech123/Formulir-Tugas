@@ -1,0 +1,87 @@
+body {
+    background: url('image/BACKGROUND.jpg');
+    margin: 0;
+    background-position: center;
+    padding: 0;
+    background-size: 1366px;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form {
+    background-color: rgba(238, 238, 238, 0.651);
+    width: 350px;
+    margin: 70px auto;
+    padding: 20px 35px 0px 35px;
+}
+
+#heading2 {
+    color: rgb(23, 123, 216);
+}
+
+#nama, #kelas, #link {
+    margin-top: 35px;
+    height: 25px;
+    width: 300px;
+    border: none;
+    background-color: rgba(223, 223, 223, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#nama:hover {
+    border-bottom: 2px solid rgb(23, 123, 216);
+}
+
+#kelas:hover {
+    border-bottom: 2px solid rgb(23, 123, 216);
+}
+
+#link:hover {
+    border-bottom: 2px solid rgb(23, 123, 216);
+}
+
+#nama {
+    margin-top: 40px;
+}
+
+#link {
+    margin-bottom: 50px;
+}
+
+#submit {
+    width: 200px;
+    height: 35px;
+    border: 2px solid rgb(23, 123, 216);
+    background-color:rgb(23, 123, 216);
+    color: #fff;
+}
+
+#submit:hover {
+    background-color: rgb(0, 27, 53);
+    border: none;
+    color: rgb(110, 110, 110);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#runningText {
+    margin-top: 50px;
+}
+
+
+#RTC1 {
+    width: 150px;
+    margin: 10px 0px 0px 10px;
+}
+
+#RTC2 {
+    width: 150px;  
+    margin: 10px 10px 0px 0px;
+    float: right;       
+}
+
+@media screen and (max-width: 500px) {
+    .form {
+        width: 300px;
+    }
+}

@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('image/BACKGROUND.jpg');
+    background-attachment: fixed;
+    background-size: 1366px;
+    background-position: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form {
+    background-color: rgba(221, 221, 221, 0.788);
+    width: 300px;
+    text-align: center;
+    margin: 80px auto;
+    padding: 20px 50px 65px 50px;
+}
+
+.form > #judul1 {
+    color: rgb(23, 123, 216);
+    font-size: 35px;
+}
+
+#user, #pass {
+    margin-bottom: 30px;
+    width: 280px;
+    height: 25px;
+    border: none;
+    background-color: rgba(221, 221, 221, 0);
+    border-bottom: 1px solid black;
+}
+
+#user {
+    margin-top: 20px;
+}
+
+#pass {
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+#user::-webkit-input-placeholder {
+    color: black;
+}
+
+
+#pass::-webkit-input-placeholder {
+    color: black;
+}
+
+#user:-moz-input-placeholder {
+    color: black;
+}
+
+
+#pass:-moz-input-placeholder {
+    color: black;
+}
+
+#user:hover {
+    border-bottom: 2px solid blue;
+}
+
+#pass:hover {
+    border-bottom: 2px solid blue;
+}
+
+#submit {
+    margin-top: 25px;
+    width: 180px;
+    height: 35px;
+    background-color: rgb(23, 123, 216);
+    border: none;
+    color: #fff;
+}
+
+#submit:hover {
+    background-color: rgb(1, 28, 65);
+    cursor: pointer;
+    transition: 0.3s;
+    color: rgb(143, 143, 143);
+}
+
+@media screen and (max-width: 500px) {
+    .form {
+        width: 280px;
+    }
+}
